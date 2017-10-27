@@ -19,17 +19,11 @@
 
 ### linux
 1.使用自带的软件安装工具如yum,apt等安装
-2.使用压缩包安装，并配置环境变量
-3.使用源码安装
-## git安装
-[git官网](https://git-scm.com/)
 
-### 生成ssh
-`
-cd ~/.ssh
-ssh-keygen -t rsa -C "youremail@example.com"
-`
-## golang编码规范
+2.使用压缩包安装，并配置环境变量
+
+3.使用源码安装
+### golang编码规范
 [如何使用go编程](http://docscn.studygolang.com/doc/code.html)(中文翻译版)
 
 [How to Write Go Code](https://golang.org/doc/code.html)(官方原版)
@@ -38,4 +32,18 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 [Effective Go](https://golang.org/doc/effective_go.html)(官方原版)
 
+不能访问官网的使用go命令`godoc -http=:6060`
+然后在浏览器访问http://localhost:6060
+
 [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+## git安装
+[git官网](https://git-scm.com/)
+
+### 生成ssh
+`
+cd ~/.ssh
+ssh-keygen -t rsa -C "youremail@example.com"
+`
+
+## docker安装
+[docker官网](https://www.docker.com/)
